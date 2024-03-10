@@ -13,9 +13,28 @@ body {
     margin-bottom: 10px;
 }
 
-#subtitle {
-    margin-bottom: 20px;
+#two {
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+}
 
+.bestvalued {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+section article {
+    background-color: #efefef;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.recipe {
+    float:left;
+    text-align: center;
+    
 }
 
 .recipes {
@@ -28,7 +47,7 @@ body {
 }
 
 
-.entry {
+/* .entry {
     list-style-type: none;
     margin-bottom: 10px;
 
@@ -36,29 +55,33 @@ body {
 
 a {
     text-decoration: none;
-    color: rgb(216, 130, 0);
+    /* color: rgb(216, 130, 0); */
     font-weight: bold;
-}
+} */
 
 /* ESTILOS PARA LAS RECETAS */
 
-#recipe-title {
+/* #recipe-title {
     background-color:hsl(204, 97%, 64%);
     padding: 10px;
 }
 
-.background-recipes {
+.pagesrecipes {
     background-color: #efefef;
     padding-top: 20px;
 
 }
 
-img {
+.dish {
     margin: 15px;
     width: 300px;
     box-shadow: 2px 2px 20px;
     float: left;
     
+}
+
+div h2 p {
+    float: left;
 }
 
 .subtitle-recipes {
@@ -68,24 +91,25 @@ img {
     margin-top: 20px;
 }
 
-.description {
-    float: left;
-}
 
 .clearfix {
     clear: both;
 }
+
+.description {
+    width: 1000px;
+}
 .ingredients {
-    /* background-color: white; */
+   background-color: white;
     padding: 10px;
     padding-left: 50px;
     list-style-type: circle;
-}
-
+} 
+ 
 .steps {
     background-color: white;
     padding: 10px;
     padding-left: 60px;
     
-}
-
+} */
+ 
