@@ -26,11 +26,16 @@ body {
 }
 
 section article {
+    transition: box-shadow 0.3s ease;
     background-color: white;
     padding: 1rem;
     border-radius: 10px;
     margin: 10px;
 }
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+}   
 
 .recipe {
     float:left;
@@ -59,6 +64,7 @@ a {
     color: rgb(216, 130, 0); 
     font-weight: bold;
 } 
+
 
 /* ESTILOS PARA LAS RECETAS */
 
