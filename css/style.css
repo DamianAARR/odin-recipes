@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    outline: 1px red solid;
 }
 
 body {
@@ -11,18 +12,28 @@ body {
     text-align: center;
     background-color: rgb(255, 217, 0);
     padding: 20px;
-    margin-bottom: 10px;
+    
+    
+    
 }
 
 #two {
     text-align: center;
-    margin: 20px;
+    padding: 20px 0;
     font-weight: bold;
+    padding-top: 50px ;
+}
+
+.fondobest {
+    background-color: rgb(212, 189, 125);
+    height: 800px;
 }
 
 .bestvalued {
     width: 1400px;
     margin: 0 auto;
+  
+    
 }
 
 section article {
@@ -31,26 +42,30 @@ section article {
     padding: 1rem;
     border-radius: 10px;
     margin: 10px;
+    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
 section article:hover {
     box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
 }   
 
+
 .recipe {
-    float:left;
+    /* float:left; */
+    display: inline-block;
     text-align: center;
-    
+  
 }
 
-.recipes {
+/* .recipes {
     background-color: #efefef;
     padding: 15px;
     border-radius: 10px;
     margin: 10px;
     width: 150px;
     height: 300px;
-}
+} */
 
 
 .entry {
@@ -66,7 +81,7 @@ a {
 } 
 
 
-/* ESTILOS PARA LAS RECETAS */
+/* ESTILOS PARA LAS PÁGINAS DE RECETAS */
 
     #recipe-title {
     background-color:hsl(204, 97%, 64%);
